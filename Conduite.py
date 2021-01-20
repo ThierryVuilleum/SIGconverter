@@ -8,3 +8,6 @@ class Conduite:
         self.Rugosite = Rugosite
         self.Status = Status
         self.Location = []
+
+    def addLocation(self, X, Y):
+        self.Location.add((X, Y))
